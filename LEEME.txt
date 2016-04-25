@@ -1,0 +1,16 @@
+Lo primero que tenemos que hacer si queremos subir nuestro proyecto a Github es 
+crear un repositorio. Le damos a “Create a new repo”, ponemos un nombre y lo creamos.
+
+Una vez creado tendremos que hacer un “clone” para copiar este repositorio a nuestro PC.
+
+git clone https://github.com/Usuario/nombreproyecto.git
+cd nombreproyecto/
+
+Una vez lo hayamos hecho veremos una carpeta en local con el 
+nombre de nuestro repositorio de Github, esta carpeta estará vacía 
+porque aun no hemos puesto nada. Ahora puedes meter dentro todos los 
+archivos de tu proyecto y cuando los tengas todos dentro puedes ejecutar estos comandos:
+
+git add.
+git commit -m "Comentario"
+git push origin master
